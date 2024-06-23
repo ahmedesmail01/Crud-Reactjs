@@ -1,5 +1,6 @@
 import "./App.css";
 import ProductCard from "./components/ProductCard";
+import Model from "./components/ui/Model";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         <ProductCard />
         <ProductCard />
         <ProductCard />
+
+        <Model />
       </div>
     </>
   );
